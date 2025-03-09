@@ -1,0 +1,11 @@
+header {
+  width: 100%;
+  padding: 2rem 0rem;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav a {
+  color: #000;
+}/*# sourceMappingURL=nav.css.map */
