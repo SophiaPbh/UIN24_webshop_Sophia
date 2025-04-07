@@ -1,0 +1,43 @@
+#root {
+  width: 100%;
+  text-align: left;
+}
+#root header nav {
+  display: flex;
+  justify-content: space-between;
+}
+#root header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
+}
+#root header nav ul a {
+  color: #fff;
+}
+#root section {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+#root section form {
+  display: flex;
+  flex-direction: column;
+  gap: 1;
+}
+#root section form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+#root section form label input {
+  padding: 1rem;
+}
+
+#logo {
+  color: #fff;
+  font-size: 42px;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+}/*# sourceMappingURL=layout.css.map */

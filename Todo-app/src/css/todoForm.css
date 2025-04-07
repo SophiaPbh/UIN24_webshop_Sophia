@@ -1,0 +1,19 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+form input,
+form textarea {
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+}
+form input {
+  max-width: 350px;
+}
+form textarea {
+  min-height: 350px;
+}/*# sourceMappingURL=todoForm.css.map */
